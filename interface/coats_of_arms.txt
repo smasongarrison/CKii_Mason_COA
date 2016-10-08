@@ -130,6 +130,13 @@ culture =
 			color = 3
 			emblem = no
 		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_2.tga"
+			size = { x = 10 y = 10 }
+			noOfFrames = 99
+			color = 3
+			emblem = no
+		}
 	}
 }
 
