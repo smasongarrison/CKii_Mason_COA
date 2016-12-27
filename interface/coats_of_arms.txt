@@ -393,7 +393,7 @@ culture = {
 	textures = {
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_westafrican.tga"
-			size = { x = 10 y = 2 }
+			size = { x = 10 y = 1 }
 			noOfFrames = 10
 			color = 2
 			emblem = no
@@ -480,14 +480,14 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_mongol.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 50
+			noOfFrames = 30
 			color = 2
 			emblem = no
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern2_mongol.tga"
 			size = { x = 10 y = 5 }
-			noOfFrames = 50
+			noOfFrames = 30
 			color = 3
 			emblem = no
 		}
