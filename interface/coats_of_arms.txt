@@ -668,22 +668,14 @@ culture = {
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_mongol.tga"
 			size = { x = 10 y = 5 }
-<<<<<<< HEAD
-			noOfFrames = 49
-=======
 			noOfFrames = 50
->>>>>>> origin/master
 			color = 2
 			emblem = no
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern2_mongol.tga"
 			size = { x = 10 y = 5 }
-<<<<<<< HEAD
-			noOfFrames = 49
-=======
 			noOfFrames = 50
->>>>>>> origin/master
 			color = 3
 			emblem = no
 		}
