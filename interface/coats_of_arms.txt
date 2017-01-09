@@ -698,9 +698,18 @@ culture = {
 }
 
 culture = {
+<<<<<<< HEAD
 	religion= {"zoroastrian"
 	"mazdaki"
 	"manichean"
+=======
+	religion	= {
+	"zun_pagan_reformed"
+		"zun_pagan"
+		 "zoroastrian"
+		 "manichean"
+		 "mazdaki"
+>>>>>>> origin/master
 	}
 	
 	templates = { 
@@ -766,6 +775,14 @@ culture = {
 			color = 3
 			emblem = no
 		}
+				texture = {
+		# Jylland, Kiev, Livonia, Meath, Novgorod, Orkney, Ostlandet, Sjaelland, The Isles, Trondelag, Uppland, Vastergotland, York
+			file = "gfx\\coats_of_arms\\pagans.tga"
+			size = { x = 13 y = 1 }
+			noOfFrames = 13
+			color = 0
+			random = no # Do not use for random CoAs
+		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_zoroastrian_2c_1.tga"
 			size = { x = 10 y = 10 }
@@ -773,6 +790,7 @@ culture = {
 			color = 2
 			emblem = no
 		}
+
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_generic_2c_1.tga"
 			size = { x = 10 y = 20 }
@@ -1043,6 +1061,7 @@ culture = {
 		}
 	}
 }
+<<<<<<< HEAD
 
 culture = {
 	religion	= {
@@ -1128,3 +1147,5 @@ culture = {
 		}
 	}
 }
+=======
+>>>>>>> origin/master
