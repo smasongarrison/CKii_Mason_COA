@@ -133,7 +133,7 @@ culture =
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_christian_2c_humans.tga"
 			size = { x = 10 y = 10 }
-			noOfFrames = 51
+			noOfFrames = 54
 			color = 2
 			emblem = no
 		}
@@ -296,7 +296,7 @@ culture =
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_christian_2c_humans.tga"
 			size = { x = 10 y = 10 }
-			noOfFrames = 51
+			noOfFrames = 54
 			color = 2
 			emblem = no
 		}
@@ -457,7 +457,7 @@ culture =
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_christian_2c_humans.tga"
 			size = { x = 10 y = 10 }
-			noOfFrames = 51
+			noOfFrames = 54
 			color = 2
 			emblem = no
 		}
