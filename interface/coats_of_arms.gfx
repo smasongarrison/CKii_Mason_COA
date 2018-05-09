@@ -276,7 +276,7 @@ spriteTypes = {
 	
 	CoatOfArmsType = {
 		name = "coa_plain_pagan"
-		frame = "gfx\\coats_of_arms\\solo_frame_pagan.dds"
+		frame = "gfx\\coats_of_arms\\solo_frame_pagan.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
@@ -477,5 +477,44 @@ spriteTypes = {
 			scale = 1
 		}
 	}		
+
+# en chef
+
+	CoatOfArmsType = {
+		name = "coa_in_chief"
+		frame = "gfx\\coats_of_arms\\frame_solo.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+		
+		layer = {
+			mask = "gfx\\coats_of_arms\\party_per_chief_1.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+		layer = {
+			mask = "gfx\\coats_of_arms\\party_per_chief_2.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}
+	CoatOfArmsType = {
+		name = "coa_in_chief_unit"
+		frame = "gfx\\coats_of_arms\\unit_banner_overlay.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+		
+		layer = {
+			mask = "gfx\\coats_of_arms\\party_per_chief_1_unit.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+		layer = {
+			mask = "gfx\\coats_of_arms\\party_per_chief_2_unit.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}	
 	
 }
