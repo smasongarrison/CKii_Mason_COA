@@ -1,7 +1,7 @@
 culture =
 {
-	#religion_group = "christian"
-	religion = {
+#	religion_group = "christian"
+religion = {
 		"catholic"
 		"cathar"
 		"fraticelli"
@@ -82,7 +82,7 @@ culture =
 		texture = { #2
 			file = "gfx\\coats_of_arms\\part3_solo.tga"
 			size = { x = 10 y = 24 }
-			noOfFrames = 1174
+			noOfFrames = 174
 			color = 0
 			emblem = no					
 		}
@@ -230,7 +230,6 @@ culture =
 		{ 38 38 38 }	    #12   	Sable
 		{ 38 38 38 }	    #13   	Sable       
 		{ 38 38 38 }	    #14   	Sable       
-
 	}
 	
 	rebel_colors = { 3 5 7 }
@@ -239,19 +238,19 @@ culture =
 	{ 
 		{ 0 1 }						                  #0		métaux
 		{ 0 1 }						                  #1		métaux		
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#2		couleurs
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 14}			  #3		couleurs
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#4		couleurs        		
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#5		couleurs
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#6		couleurs		
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#7		couleurs		
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#8		couleurs	
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#9		couleurs	
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#10		couleurs		
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 }				#11 	couleurs		
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 14}				#12		couleurs		 
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 14}				#13		couleurs	 
-		{ 2 3 4 5 6 7 8 9 10 11 12 13 14}				#14		couleurs	   		
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#2		couleurs
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }			  #3		couleurs
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#4		couleurs        		
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#5		couleurs
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#6		couleurs		
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#7		couleurs		
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#8		couleurs	
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#9		couleurs	
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#10		couleurs		
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#11 	couleurs		
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#12		couleurs		 
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#13		couleurs	   
+		{ 2 3 4 5 6 7 8 9 10 11 12 13 14 }				#14		couleurs	   
 	}
 	
 	emblem = {
@@ -293,7 +292,7 @@ culture =
 		texture = { #4 (from 5)
 			file = "gfx\\coats_of_arms\\part4_solo.tga"
 			size = { x = 10 y = 24 }
-			noOfFrames = 180
+			noOfFrames = 177
 			color = 3
 			emblem = no
 		}
@@ -391,8 +390,8 @@ culture =
 	religion_group = "muslim"
 
 	templates = { 
-		#"solo_islamic_frame:1"	
-		"coa_plain_muslim:1"
+		"solo_islamic_frame:1"	
+		#"coa_plain_muslim:1"
 		#"coa_party_per_fess:2"
 		#"coa_party_per_pale:2"
 		#"coa_party_per_cross:4"
@@ -474,7 +473,7 @@ culture =
 			noOfFrames = 50
 			color = 2
 			emblem = no
-			random = yes				
+			random = yes
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_muslim.tga"
@@ -551,10 +550,7 @@ culture = {
 		noOfFrames = 12
 	}	
 	
-#	emblem = {
-#		file = "gfx\\coats_of_arms\\emblem_muslim.dds"
-#		noOfFrames = 1
-#	}
+
 
 	# WHEN ADDING NEW, ALWAYS ADD AT THE END
 	textures = {
@@ -573,13 +569,7 @@ culture = {
 			emblem = yes			
 			random = yes			
 		}
-#		texture = {
-#			file = "gfx\\coats_of_arms\\pattern2_norse.tga"
-#			size = { x = 10 y = 4 }
-#			noOfFrames = 32
-#			color = 3
-#			emblem = yes
-#		}
+
 		texture = { #2
 		# Jylland, Kiev, Livonia, Meath, Novgorod, Orkney, Ostlandet, Sjaelland, The Isles, Trondelag, Uppland, Vastergotland, York
 			file = "gfx\\coats_of_arms\\solo_pagans.tga"
@@ -594,14 +584,15 @@ culture = {
 			noOfFrames = 18
 			color = 2
 			emblem = no
-			random = no # Do not use for random CoAs				
+			random = yes # Do not use for random CoAs				
 		}	
+
 		texture = { #4
 			file = "gfx\\coats_of_arms\\solo_pagans_2.tga"
 			size = { x = 13 y = 1 }
 			noOfFrames = 13
 			color = 0
-			random = no # Do not use for random CoAs
+			random = yes # Do not use for random CoAs
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_norse.tga"
@@ -1018,6 +1009,7 @@ culture = {
 	religion = {
 		"tengri_pagan_reformed"
 		"tengri_pagan"
+		"bon"		
 	}
 	
 	templates = { 
@@ -1128,6 +1120,7 @@ culture = {
 		 "zoroastrian"
 		 "manichean"
 		 "mazdaki"
+		 "khurmazta"
 	}
 	
 	templates = { 
@@ -1293,7 +1286,7 @@ culture =
 		texture = { #3
 			file = "gfx\\coats_of_arms\\part4_solo.tga"
 			size = { x = 10 y = 24 }
-			noOfFrames = 180
+			noOfFrames = 177
 			color = 3	
 			emblem = no
 		}
@@ -1303,7 +1296,9 @@ culture =
 }
 
 culture = {
+
 		religion = {
+
 		"buddhist"
 		"hindu"
 		"jain"
@@ -1468,7 +1463,6 @@ culture =
 		}		
 	}
 }
-
 culture = {
 	religion = {
 		"taoist"
