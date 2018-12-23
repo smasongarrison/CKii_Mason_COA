@@ -245,7 +245,8 @@ spriteTypes = {
 			scale = 1
 		}
 	}
-	
+
+# Vanilla Indian Frame	
 	CoatOfArmsType = {
 		name = "coa_plain_indian"
 		frame = "gfx\\coats_of_arms\\frame_indian.dds"
@@ -273,7 +274,8 @@ spriteTypes = {
 			scale = 1
 		}
 	}
-	
+
+# NU	
 	CoatOfArmsType = {
 		name = "coa_plain_pagan"
 		frame = "gfx\\coats_of_arms\\solo_frame_pagan.tga"
@@ -300,8 +302,9 @@ spriteTypes = {
 			scale = 1
 		}
 	}
-	
-		CoatOfArmsType = {
+
+# Aztec Frame	
+	CoatOfArmsType = {
 		name = "coa_plain_aztec"
 		frame = "gfx\\coats_of_arms\\solo_frame_aztec.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
@@ -309,13 +312,13 @@ spriteTypes = {
 		effect = "gfx/FX/coa_shield.lua"
 				
 		layer = {
-			# mask = "gfx\\coats_of_arms\\plain_muslim.tga"
 			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"	
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
 	}	
-	
+
+# Muslim Frame	
 	CoatOfArmsType = {
 		name = "solo_islamic_frame"
 		frame = "gfx\\coats_of_arms\\solo_frame_muslim_v9.tga"
@@ -324,13 +327,13 @@ spriteTypes = {
 		effect = "gfx/FX/coa_shield.lua"
 				
 		layer = {
-			# mask = "gfx\\coats_of_arms\\plain_muslim.tga"
 			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"			
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
 	}		
-  
+
+# Tengri Frame	
 	CoatOfArmsType = {
 		name = "solo_tengri_frame"
 		frame = "gfx\\coats_of_arms\\solo_tengri_v2.tga"
@@ -339,12 +342,11 @@ spriteTypes = {
 		effect = "gfx/FX/coa_shield.lua"
 				
 		layer = {
-			# mask = "gfx\\coats_of_arms\\plain_muslim.tga"
 			mask = "gfx\\coats_of_arms\\solo_tengri_mask.tga"			
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
-	}		
+	}	
 
 
 	CoatOfArmsType = {
@@ -387,8 +389,9 @@ spriteTypes = {
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
-	}		
+	}				
 
+# Zoroastrian Frame	
 	CoatOfArmsType = {
 		name = "solo_zoroastrian_frame"
 		frame = "gfx\\coats_of_arms\\solo_frame_zoroastrian.tga"
@@ -397,7 +400,6 @@ spriteTypes = {
 		effect = "gfx/FX/coa_shield.lua"
 				
 		layer = {
-			# mask = "gfx\\coats_of_arms\\plain_muslim.tga"
 			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"			
 			center = { x= 0 y = 0 }
 			scale = 1
@@ -418,6 +420,7 @@ spriteTypes = {
 		}
 	}	
 
+# West African Frame	
 	CoatOfArmsType = {
 		name = "solo_african_frame"
 		frame = "gfx\\coats_of_arms\\solo_frame_african.tga"
@@ -426,7 +429,6 @@ spriteTypes = {
 		effect = "gfx/FX/coa_shield.lua"
 				
 		layer = {
-			# mask = "gfx\\coats_of_arms\\plain_muslim.tga"
 			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"			
 			center = { x= 0 y = 0 }
 			scale = 1
@@ -446,9 +448,8 @@ spriteTypes = {
 			scale = 1
 		}
 	}		
-	
-# Norse shield frame test	
-	
+
+# Norse Frame	
 	CoatOfArmsType = {
 		name = "solo_norse_frame"
 		frame = "gfx\\coats_of_arms\\solo_frame_norse_t2.tga"
@@ -457,7 +458,6 @@ spriteTypes = {
 		effect = "gfx/FX/coa_shield.lua"
 				
 		layer = {
-			# mask = "gfx\\coats_of_arms\\plain_muslim.tga"
 			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"	
 			center = { x= 0 y = 0 }
 			scale = 1
@@ -476,7 +476,7 @@ spriteTypes = {
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
-	}		
+	}	
 
 # en chef
 
