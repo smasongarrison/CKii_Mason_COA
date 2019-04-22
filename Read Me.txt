@@ -1,0 +1,10 @@
+Patrum Scuta 3.03
+
+Ironman release, updated for 3.0 PXTU
+
+Credits :
+
+Original idea and concept by Keanon
+Graphics and Implementation by Solo
+Graphics by Birger, from his Wappenwiki website
+http://wappenwiki.org
